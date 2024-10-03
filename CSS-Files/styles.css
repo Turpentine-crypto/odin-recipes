@@ -1,0 +1,14 @@
+/* Styles.CSS */
+
+.Titles {
+    color: aqua;
+}
+
+.Statements {
+    color: aquamarine;
+    background-color: aliceblue;
+}
+
+#Credits {
+    background-color: beige;
+}
