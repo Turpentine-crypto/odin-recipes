@@ -1,14 +1,66 @@
 /* Styles.CSS */
 
+body {
+    background-color: white;
+}
+
+#Box {
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+h1 {
+    margin-top: 125px;
+    margin-bottom: 0px;
+    font-size: 65px;
+}
+
 .Titles {
-    color: aqua;
+    font-family: "Papyrus", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 250;
+    text-align: center;
 }
 
-.Statements {
-    color: aquamarine;
-    background-color: aliceblue;
+.Titles.Sub {
+    margin-left: 180px;
+    line-height: 0px;
 }
 
+#List {
+    list-style-type: none;
+}
+
+.Button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 22px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, #03fca9, #0d95d9);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Button#Last {
+    margin-bottom: 3px;
+}
+
+.Statements,
+#Box,
+.Button,
 #Credits {
-    background-color: beige;
+    font-family: 'Papyrus', 'Copperplate', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Statements,
+#Credits {
+    font-size: 18px;
+}
+
+#Big {
+    background-color: gray;
+    border-color: black;
 }
